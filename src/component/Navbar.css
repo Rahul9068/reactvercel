@@ -1,0 +1,325 @@
+.logo{
+    font-size: 22px;
+    padding-left: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    display: grid;
+    display: flex;
+    justify-content: space-around;
+}
+.location{
+    border: 1px solid black;
+  
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 150px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.date{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100px;
+    height: 25px;
+    position: relative;
+    top: 10px;
+    left: 48px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.add_member{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    width: 100px;
+    height: 29px;
+    position: relative;
+    top: 10px;
+    right: 54px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+/* .num{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100px;
+    height: 29px;
+    position: relative;
+    top: 10px;
+    right: 47px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+.search-input{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    width: 100px;
+    height: 25px;
+    position: relative;
+    top: 10px;
+    right: 155px;
+    left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.search_btn{
+    color: #fff;
+    background-color: rgb(250, 46, 32);
+    border: 0.5px solid black;
+    position: relative;
+    top: 10px;
+    right: 150px;
+    width: 10px;
+    height: 20px;
+    border-radius: 20px;
+}
+.search_btn,.search_img{
+    width: 80px;
+    height: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.user_btn{
+    color: aliceblue;
+    /* background-color: rgb(245, 41, 41); */
+    border: 0.5px solid black;
+    position: relative;
+    top: 10px;
+    /* right: 150px; */
+    width: 80px;
+    height: 25px;
+    padding-top: 5px;
+    border-radius: 20px;
+}
+.user_img{
+    width: 80px;
+    height: 25px;
+    position: relative;
+    bottom: 3px;
+    border-radius: 20px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 22px;
+    padding-left: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+.btn_fisrt{
+    width: 81px;
+    height: 38px;
+    position: relative;
+    left: 241px;
+    top: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.btn_second{
+    width: 170px;
+    height: 38px;
+    position: relative;
+    right: 50px;
+    top: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 15px
+}
+.main_card, img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.main_card{
+    display: grid;
+  grid-template-rows: repeat(3, 1fr); /* 4 rows */
+  grid-template-columns: repeat(4, 1fr); /* 3 columns */
+  column-gap: 2px;
+  row-gap: 2px;
+}
+.card_first,.card_second,.card_third,.card_forth,.card_fifth,.card_sixth,.card_seventh,.card_eighth,.card_ninth,.card_tenth,.card_eleventh,.card_twelth{
+    display: grid;
+    grid-template-rows: repeat(4 1fr); 
+    grid-template-columns: repeat(3, 1fr); 
+    column-gap: 2px;
+    row-gap: 2px;
+    width: 314px;
+    height: 380px;
+    position: relative;
+    left: 80px;
+}
+.place{
+    position: relative;
+    top: 239px;
+    left: -247px;
+}
+.view{
+    position: relative;
+    top: 287px;
+    left: -323px;
+    font-size: 12px;
+}
+.rupee{
+    position: relative;
+     bottom: -28px;
+    left: 4px;
+}
+.rate{
+    position: relative;
+     bottom: 49px;
+    left: -32px; 
+}
+.place_first{
+    position: relative;
+    top:239px;
+    left:-247px;
+}
+.view_first{
+    position: relative;
+    top: 288px;
+    left: -300px;
+    font-size: 12px;
+}
+.rupee_first{
+    position: relative;
+    bottom: -28px;
+   left: 4px;
+}
+.place_sec{
+    position: relative;
+    top:239px;
+    left:-247px;
+}
+.view_sec{
+    position: relative;
+    top: 288px;
+    left: -309px;
+    font-size: 12px;
+}
+.rupee_sec{
+    position: relative;
+    bottom: -28px;
+   left: 4px;
+}
+.place_thir{
+    position: relative;
+    top:239px;
+    left:-247px;
+}
+.view_thir{
+    position: relative;
+    top: 288px;
+    left: -316px;
+    font-size: 12px;
+}
+.rupee_thir{
+    position: relative;
+    bottom: -28px;
+   left: 4px;
+}
+.place_for{
+    position: relative;
+    top:239px;
+    left:-247px;
+}
+.view_for{
+    position: relative;
+    top: 288px;
+    left: -285px;
+    font-size: 12px;
+}
+.rupee_for{
+    position: relative;
+    bottom: -28px;
+   left: 4px;
+}
+.view_fif{
+    position: relative;
+    top:290px;
+    left:-321px;
+    font-size: 12px;
+}
+.view_sev{
+    position: relative;
+    top:290px;
+    left:-290px;
+    font-size: 12px;
+}
+.view_eig{
+    position: relative;
+    top:288px;
+    left:-302px;
+    font-size: 12px;
+}
+.view_nin{
+    position: relative;
+    top:288px;
+    left:-321px;
+    font-size: 12px;
+}
+.view_ten{
+    position: relative;
+    top:288px;
+    left:-300px;
+    font-size: 12px;
+}
+.view_ele{
+    position: relative;
+    top:288px;
+    left:-289px;
+    font-size: 12px;
+}
+
+
+
+
+/* Add your existing styles here */
+.main_card.image-shifted img {
+    transform: translateX(1000px);
+  }
+  
+  /* Add other styles as needed */
+  
+
+.menu-bar {
+    position: absolute;
+    top: 0;
+    left: -280px; /* Offscreen by default */
+    width: 200px;
+    height: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: left 0.3s ease-in-out;
+  }
+  
+  .menu-bar.open {
+    left: 0; /* Slide in from the left when open */
+  }
+   
+  
+  .menu-content {
+    padding: 20px;
+    height: 800px;
+    /* border: 1px solid black; */
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-label input[type='checkbox'] {
+    margin-right: 10px;
+  }
+  
+  .checkbox-icon {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    margin-right: 10px;
+  }
+  
+  /* Add more styles as needed */
+  
